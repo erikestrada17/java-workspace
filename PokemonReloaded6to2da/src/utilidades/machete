@@ -1,0 +1,34 @@
+package pokemons;
+
+public enum Pokemons {
+	
+	PIKACHU("Pikachu"), BLASTOISE("Blastoise");
+	
+	private String nombre;
+	
+
+	Pokemons(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	
+	public String getNombre() {
+		return this.nombre;
+	}
+	
+	public Pokemon getPokemon() {	
+		Pokemon p = null;
+		
+		try {
+			String className= "pokemons."+this.getNombre();
+			Class c = Class.forName(className);
+			p = (Pokemon) c.newInstance();
+		} catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		return  p;
+	}
+	
+
+}
