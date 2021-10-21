@@ -1,0 +1,10 @@
+package entidades;
+
+import enumeradores.Tipo;
+
+public class Nimmo {
+	
+	public Nimmo() {
+		super("Nimmo",Tipo.FUEGO);
+	}
+}

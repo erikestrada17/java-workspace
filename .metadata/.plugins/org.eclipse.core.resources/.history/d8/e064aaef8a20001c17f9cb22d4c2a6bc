@@ -1,0 +1,17 @@
+import entidades.Personaje;
+import enumeradores.Mascotas;
+import utiles.Utiles;
+
+public class Principal {
+	
+	private Personaje p;
+	public static void main(String[] args) {
+		System.out.println("Bienvenido al juego de mascotas virtuales");
+		System.out.println("\nAdopte una mascota:");
+		System.out.println("");
+		for (int i = 0; i < Mascotas.values().length; i++) {
+			
+		}
+	}
+
+}

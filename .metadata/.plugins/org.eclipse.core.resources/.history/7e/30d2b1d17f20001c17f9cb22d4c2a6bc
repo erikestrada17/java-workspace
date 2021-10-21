@@ -1,0 +1,9 @@
+package entidades;
+
+public class Personaje {
+
+	private String nombre;
+	private float dinero = 100;
+	private Mascota mascota;
+	
+}

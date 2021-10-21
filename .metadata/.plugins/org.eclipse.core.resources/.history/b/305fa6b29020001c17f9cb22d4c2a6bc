@@ -1,0 +1,14 @@
+package entidades;
+
+import enumeradores.Mascotas;
+import utiles.Utiles;
+
+public class Personaje {
+
+	private float dinero = 1000;
+	private Mascota mascota;
+	
+	public Personaje(Mascota mascota) {
+		this.mascota = mascota;
+	}
+}

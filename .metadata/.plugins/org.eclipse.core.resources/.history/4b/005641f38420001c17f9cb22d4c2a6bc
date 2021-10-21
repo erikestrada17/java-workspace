@@ -1,0 +1,13 @@
+package entidades;
+
+public class Mecca extends Mascota {
+	
+	public Mecca(String nombre) {
+		super(nombre, Tipo.AIRE,"Mecca");
+	}
+	
+	public Mecca() {
+		super(Tipo.AIRE,"Mecca");
+	}
+
+}

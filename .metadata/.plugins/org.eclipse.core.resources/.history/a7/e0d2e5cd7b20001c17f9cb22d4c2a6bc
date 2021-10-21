@@ -1,0 +1,7 @@
+package entidades;
+
+import entidades;
+
+public class Personaje {
+
+}

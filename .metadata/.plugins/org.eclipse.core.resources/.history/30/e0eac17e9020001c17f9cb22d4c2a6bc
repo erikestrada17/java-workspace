@@ -1,0 +1,23 @@
+package entidades;
+
+import enumeradores.Mascotas;
+import utiles.Utiles;
+
+public class Personaje {
+
+	private String nombre;
+	private float dinero = 1000;
+	private Mascota mascota;
+	
+	public Personaje(String nombre, Mascota mascota) {
+		this.nombre = nombre;
+		this.mascota = mascota;
+		asignarMascota();
+	}
+
+	private void asignarMascota() {
+		int ind = Utiles.r.nextInt(Mascotas.values().length);
+		this.mascota = Mascotas.values()[ind].getMascota();
+	}
+	
+}

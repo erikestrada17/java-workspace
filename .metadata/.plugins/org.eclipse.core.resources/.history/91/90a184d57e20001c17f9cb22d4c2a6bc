@@ -1,0 +1,10 @@
+package entidades;
+
+import enumeradores.Tipo;
+import otros.Estado;
+
+public class Mascota {
+	private String nombre;
+	private Estado suciedad, hambre, sueño, felicidad;
+	private Tipo tipo;
+}

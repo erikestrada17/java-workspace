@@ -1,0 +1,11 @@
+import entidades.Personaje;
+import utiles.Utiles;
+
+public class Principal {
+	
+	private Personaje p;	
+	public static void main(String[] args) {
+		System.out.println("prueba");
+	}
+
+}
