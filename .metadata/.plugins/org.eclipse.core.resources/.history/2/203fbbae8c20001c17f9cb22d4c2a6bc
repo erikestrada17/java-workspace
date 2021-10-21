@@ -1,7 +1,0 @@
-package enumeradores;
-
-public enum Tipo {
-	
-	FUEGO("Fuego"),AIRE("Aire"),AGUA("Agua");
-
-}
